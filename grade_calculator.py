@@ -5,7 +5,7 @@ score = float(input('please enter the marks (0-100):'))
 if 0 <= score <= 100:
     if score < 60:
         grade ='E'
-    elif score >= 60 and  score < 70:
+    elif score >= 60 and score <70:
         grade ='D'
     elif score >= 70 and score <80:
         grade ='C'
